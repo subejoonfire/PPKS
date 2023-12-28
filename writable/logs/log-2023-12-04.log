@@ -1,0 +1,54 @@
+ERROR - 2023-12-04 10:13:17 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\TugasPBL\PBLS3\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\TugasPBL\PBLS3\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'ppks', 3306, '', 0)
+#1 C:\xampp\htdocs\TugasPBL\PBLS3\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\TugasPBL\PBLS3\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\TugasPBL\PBLS3\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\TugasPBL\PBLS3\app\Models\GaleriModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TugasPBL\PBLS3\app\Controllers\BerandaController.php(30): App\Models\GaleriModel->GetDataGaleriRandom()
+#6 C:\xampp\htdocs\TugasPBL\PBLS3\system\CodeIgniter.php(919): App\Controllers\BerandaController->beranda()
+#7 C:\xampp\htdocs\TugasPBL\PBLS3\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+#8 C:\xampp\htdocs\TugasPBL\PBLS3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TugasPBL\PBLS3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TugasPBL\PBLS3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\TugasPBL\PBLS3\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\TugasPBL\PBLS3\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\TugasPBL\PBLS3\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\TugasPBL\PBLS3\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\TugasPBL\PBLS3\app\Models\GaleriModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\TugasPBL\PBLS3\app\Controllers\BerandaController.php(30): App\Models\GaleriModel->GetDataGaleriRandom()
+#5 C:\xampp\htdocs\TugasPBL\PBLS3\system\CodeIgniter.php(919): App\Controllers\BerandaController->beranda()
+#6 C:\xampp\htdocs\TugasPBL\PBLS3\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+#7 C:\xampp\htdocs\TugasPBL\PBLS3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TugasPBL\PBLS3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TugasPBL\PBLS3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-04 10:13:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `galeri`
+ORDER BY RAND()
+ LIMIT 3', [], false)
+ 3 APPPATH\Models\GaleriModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\BerandaController.php(30): App\Models\GaleriModel->GetDataGaleriRandom()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaController->beranda()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\TugasPBL\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-04 10:14:55 --> Invalid file: "pages/user/laporkan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/user/laporkan.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/user/laporkan', [], true)
+ 3 APPPATH\Controllers\Pages.php(44): view('pages/user/laporkan')
+ 4 APPPATH\Controllers\Pages.php(78): App\Controllers\Pages->tampilkanHalaman('Laporkan', 'laporkan', 'Laporkan', 'user')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pages->laporkan()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\TugasPBL\\PBLS3\\public\\index.php')

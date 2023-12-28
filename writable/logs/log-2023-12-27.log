@@ -1,0 +1,9 @@
+CRITICAL - 2023-12-27 10:25:27 --> Undefined property: App\Controllers\Profil::$alamat
+in APPPATH\Controllers\Profil.php on line 28.
+ 1 APPPATH\Controllers\Profil.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Profil::$alamat', 'C:\\xampp\\htdocs\\PBLS3\\app\\Controllers\\Profil.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->pengantar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+INFO - 2023-12-27 10:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

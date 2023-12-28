@@ -1,0 +1,72 @@
+CRITICAL - 2023-12-13 06:02:00 --> Call to undefined method App\Models\PengaduanModel::getJumlahPengaduan
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\BerandaController.php(33): CodeIgniter\Model->__call('getJumlahPengaduan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaController->beranda()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-13 06:02:56 --> Call to undefined method App\Models\PengaduanModel::getJumlahPengaduan
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\BerandaController.php(33): CodeIgniter\Model->__call('getJumlahPengaduan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaController->beranda()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-13 06:14:19 --> Call to undefined method App\Models\PengaduanModel::getJumlahPengaduan
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\BerandaController.php(33): CodeIgniter\Model->__call('getJumlahPengaduan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaController->beranda()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-13 06:14:26 --> Call to undefined method App\Models\PengaduanModel::getJumlahPengaduan
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\BerandaController.php(33): CodeIgniter\Model->__call('getJumlahPengaduan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaController->beranda()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-13 06:14:27 --> Call to undefined method App\Models\PengaduanModel::getJumlahPengaduan
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\BerandaController.php(33): CodeIgniter\Model->__call('getJumlahPengaduan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaController->beranda()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-13 06:14:28 --> Call to undefined method App\Models\PengaduanModel::getJumlahPengaduan
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\BerandaController.php(33): CodeIgniter\Model->__call('getJumlahPengaduan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaController->beranda()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-13 06:14:45 --> Call to undefined method App\Models\PengaduanModel::getJumlahPengaduan
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\BerandaController.php(33): CodeIgniter\Model->__call('getJumlahPengaduan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaController->beranda()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-13 06:15:38 --> Call to undefined method App\Models\PengaduanModel::getJumlahPengaduan
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\BerandaController.php(33): CodeIgniter\Model->__call('getJumlahPengaduan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaController->beranda()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-13 06:16:45 --> Call to undefined method App\Models\PengaduanModel::getJumlahPengaduan
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\BerandaController.php(33): CodeIgniter\Model->__call('getJumlahPengaduan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaController->beranda()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')

@@ -1,0 +1,174 @@
+CRITICAL - 2023-12-22 12:14:40 --> Invalid file: "pegawai/BerandaPegawai.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pegawai/BerandaPegawai.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pegawai/BerandaPegawai', [], true)
+ 3 APPPATH\Controllers\PegawaiPagesController.php(11): view('pegawai/BerandaPegawai')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PegawaiPagesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiPagesController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-22 12:14:54 --> Invalid file: "pegawai/berandapegawai.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pegawai/berandapegawai.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pegawai/berandapegawai', [], true)
+ 3 APPPATH\Controllers\PegawaiPagesController.php(11): view('pegawai/berandapegawai')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PegawaiPagesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiPagesController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-22 12:15:09 --> Invalid file: "pegawai/artikel.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pegawai/artikel.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pegawai/artikel', [], true)
+ 3 APPPATH\Controllers\PegawaiPagesController.php(11): view('pegawai/artikel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PegawaiPagesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiPagesController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-22 12:17:52 --> Undefined variable $pengguna
+in APPPATH\Views\pages\Pegawai\BerandaPegawai.php on line 70.
+ 1 APPPATH\Views\pages\Pegawai\BerandaPegawai.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Pegawai\\BerandaPegawai.php', 70)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Pegawai\\BerandaPegawai.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/pegawai/berandapegawai', [], true)
+ 5 APPPATH\Controllers\PegawaiPagesController.php(11): view('pages/pegawai/berandapegawai')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PegawaiPagesController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiPagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-22 12:20:54 --> Undefined variable $judul
+in APPPATH\Views\layout\header-pegawai.php on line 7.
+ 1 APPPATH\Views\layout\header-pegawai.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\layout\\header-pegawai.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\layout\\header-pegawai.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('layout/header-pegawai', [], true)
+ 5 APPPATH\Controllers\PegawaiPagesController.php(11): view('layout/header-pegawai')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PegawaiPagesController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiPagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-22 12:21:00 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PBLS3\app\Controllers\PegawaiPagesController.php on line 11
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\PegawaiPagesController.php(11): view('layout/header-pegawai', 'Laporan')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PegawaiPagesController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiPagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-22 12:21:26 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PBLS3\app\Controllers\PegawaiPagesController.php on line 11
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\PegawaiPagesController.php(11): view('layout/header-pegawai', 'Laporan')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PegawaiPagesController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiPagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+INFO - 2023-12-22 12:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 12:37:35 --> Undefined constant "App\Controllers\condition"
+in APPPATH\Controllers\Login.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+INFO - 2023-12-22 12:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 12:37:50 --> Undefined constant "App\Controllers\condition"
+in APPPATH\Controllers\Login.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+INFO - 2023-12-22 12:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 12:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 12:38:43 --> Undefined variable $judul
+in APPPATH\Views\layout\header-admin.php on line 7.
+ 1 APPPATH\Views\layout\header-admin.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\layout\\header-admin.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\layout\\header-admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('layout/header-admin', [], true)
+ 5 APPPATH\Controllers\Login.php(60): view('layout/header-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+INFO - 2023-12-22 12:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 12:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-22 12:40:58 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in C:\xampp\htdocs\PBLS3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\PBLS3\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\PBLS3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\PBLS3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\PBLS3\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\PBLS3\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\PBLS3\app\Views\pages\Pegawai\BerandaPegawai.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\PBLS3\system\View\View.php(226): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PBLS3\system\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\PBLS3\system\Common.php(1188): CodeIgniter\View\View->render('pages/pegawai/b...', Array, true)
+#9 C:\xampp\htdocs\PBLS3\app\Controllers\Login.php(56): view('pages/pegawai/b...', Array)
+#10 C:\xampp\htdocs\PBLS3\system\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+#11 C:\xampp\htdocs\PBLS3\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 C:\xampp\htdocs\PBLS3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\PBLS3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\PBLS3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2023-12-22 12:40:58 --> Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pengaduan`
+WHERE `username` = :username:', [...], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Views\pages\Pegawai\BerandaPegawai.php(26): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Pegawai\\BerandaPegawai.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/pegawai/berandapegawai', [], true)
+ 7 APPPATH\Controllers\Login.php(56): view('pages/pegawai/berandapegawai', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+INFO - 2023-12-22 12:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 12:44:14 --> Undefined variable $pengaduanModel
+in APPPATH\Views\pages\Pegawai\cekkeluhan.php on line 64.
+ 1 APPPATH\Views\pages\Pegawai\cekkeluhan.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengaduanModel', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Pegawai\\cekkeluhan.php', 64)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Pegawai\\cekkeluhan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/pegawai/cekkeluhan', [], true)
+ 5 APPPATH\Controllers\PegawaiPagesController.php(15): view('pages/pegawai/cekkeluhan')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PegawaiPagesController->cekkeluhan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiPagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-22 13:39:49 --> Undefined variable $judul
+in APPPATH\Views\layout\header-user.php on line 7.
+ 1 APPPATH\Views\layout\header-user.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\layout\\header-user.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\layout\\header-user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('layout/header-user', [], true)
+ 5 APPPATH\Controllers\Pengaduan.php(112): view('layout/header-user')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengaduan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+INFO - 2023-12-22 14:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-22 14:16:18 --> syntax error, unexpected token "else"
+in APPPATH\Views\pages\Admin\cekkeluhan.php on line 121.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/cekkeluhan', [], true)
+ 3 APPPATH\Controllers\Pages.php(172): view('pages/Admin/cekkeluhan')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pages->cekkeluhan()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+INFO - 2023-12-22 14:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-22 14:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

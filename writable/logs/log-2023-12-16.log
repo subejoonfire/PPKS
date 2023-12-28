@@ -1,0 +1,612 @@
+CRITICAL - 2023-12-16 10:34:51 --> Undefined variable $user
+in APPPATH\Controllers\Login.php on line 21.
+ 1 APPPATH\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\PBLS3\\app\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 10:38:23 --> Undefined array key "keluhan"
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 25.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keluhan"', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 10:47:22 --> password_verify() expects exactly 2 arguments, 1 given
+in APPPATH\Controllers\Login.php on line 32.
+ 1 APPPATH\Controllers\Login.php(32): password_verify(Object(SensitiveParameterValue))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 10:47:47 --> password_hash() expects at least 2 arguments, 1 given
+in APPPATH\Controllers\Login.php on line 32.
+ 1 APPPATH\Controllers\Login.php(32): password_hash(Object(SensitiveParameterValue))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 10:49:47 --> Call to undefined method App\Models\UserModel::rows
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Login.php(33): CodeIgniter\Model->__call('rows', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 10:50:02 --> Call to undefined method App\Models\UserModel::count
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Login.php(33): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 10:52:13 --> Call to undefined method App\Models\UserModel::getRow
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Login.php(33): CodeIgniter\Model->__call('getRow', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 10:53:28 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$username
+in APPPATH\Controllers\Login.php on line 34.
+ 1 APPPATH\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$username', 'C:\\xampp\\htdocs\\PBLS3\\app\\Controllers\\Login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 10:56:52 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\Login.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 10:57:08 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$username
+in APPPATH\Controllers\Login.php on line 34.
+ 1 APPPATH\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$username', 'C:\\xampp\\htdocs\\PBLS3\\app\\Controllers\\Login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 10:57:44 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$username
+in APPPATH\Controllers\Login.php on line 34.
+ 1 APPPATH\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$username', 'C:\\xampp\\htdocs\\PBLS3\\app\\Controllers\\Login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 10:58:49 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$email
+in APPPATH\Controllers\Login.php on line 34.
+ 1 APPPATH\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$email', 'C:\\xampp\\htdocs\\PBLS3\\app\\Controllers\\Login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 10:59:37 --> Undefined variable $result
+in APPPATH\Controllers\Login.php on line 34.
+ 1 APPPATH\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\PBLS3\\app\\Controllers\\Login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:01:59 --> Attempt to read property "username" on array
+in APPPATH\Controllers\Login.php on line 34.
+ 1 APPPATH\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'C:\\xampp\\htdocs\\PBLS3\\app\\Controllers\\Login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:02:14 --> Undefined array key "username"
+in APPPATH\Controllers\Login.php on line 34.
+ 1 APPPATH\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\PBLS3\\app\\Controllers\\Login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:03:42 --> Undefined array key "username"
+in APPPATH\Controllers\Login.php on line 34.
+ 1 APPPATH\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\PBLS3\\app\\Controllers\\Login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:03:57 --> Attempt to read property "username" on array
+in APPPATH\Controllers\Login.php on line 34.
+ 1 APPPATH\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'C:\\xampp\\htdocs\\PBLS3\\app\\Controllers\\Login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:04:13 --> Attempt to read property "email" on array
+in APPPATH\Controllers\Login.php on line 34.
+ 1 APPPATH\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'C:\\xampp\\htdocs\\PBLS3\\app\\Controllers\\Login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:04:42 --> Attempt to read property "username" on array
+in APPPATH\Controllers\Login.php on line 34.
+ 1 APPPATH\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'C:\\xampp\\htdocs\\PBLS3\\app\\Controllers\\Login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:04:51 --> Undefined array key "username"
+in APPPATH\Controllers\Login.php on line 34.
+ 1 APPPATH\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\PBLS3\\app\\Controllers\\Login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:05:38 --> Call to undefined function App\Controllers\first()
+in APPPATH\Controllers\Login.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:05:49 --> Call to undefined method App\Models\UserModel::getResult
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Login.php(33): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:06:03 --> Call to undefined method App\Models\UserModel::getResultArray
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Login.php(33): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:06:43 --> Undefined array key "username"
+in APPPATH\Controllers\Login.php on line 34.
+ 1 APPPATH\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\PBLS3\\app\\Controllers\\Login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:09:14 --> Undefined array key "keluhan"
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 25.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keluhan"', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:10:03 --> Undefined array key "keluhan"
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 25.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keluhan"', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:10:23 --> Undefined array key "keluhan"
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 25.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keluhan"', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:14:31 --> Class "App\Models\LaporanModel" not found
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 24.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 4 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:15:53 --> Undefined property: stdClass::$keluhan
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 29.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$keluhan', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:16:01 --> Class "App\Models\LaporanModel" not found
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 24.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 4 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:16:17 --> Undefined property: stdClass::$keluhan
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 29.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$keluhan', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 11:18:18 --> Cannot use object of type stdClass as array
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 72.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 4 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+INFO - 2023-12-16 11:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-16 11:21:29 --> Call to undefined method CodeIgniter\Session\Session::put()
+in APPPATH\Controllers\Login.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+INFO - 2023-12-16 11:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-16 11:22:06 --> Undefined property: App\Controllers\Login::$DataAlamat
+in APPPATH\Controllers\Login.php on line 40.
+ 1 APPPATH\Controllers\Login.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$DataAlamat', 'C:\\xampp\\htdocs\\PBLS3\\app\\Controllers\\Login.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+INFO - 2023-12-16 11:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-16 11:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-16 11:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-16 11:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-16 11:45:48 --> The route for "pages/Admin/BerandaAdmin" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('pages/Admin/BerandaAdmin')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(56): redirect('pages/Admin/BerandaAdmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+INFO - 2023-12-16 11:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-16 11:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-16 11:46:58 --> Invalid file: "/dasboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/dasboard.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/dasboard', [], true)
+ 3 APPPATH\Controllers\Login.php(57): view('/dasboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+INFO - 2023-12-16 11:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-16 11:48:12 --> The route for "/beranda admin" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/beranda admin')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(57): redirect('/beranda admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+INFO - 2023-12-16 11:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-16 11:48:44 --> The route for "/berandaadmin" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/berandaadmin')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(57): redirect('/berandaadmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->loginauth()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+INFO - 2023-12-16 11:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-16 14:02:40 --> Cannot use object of type mysqli as array
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 37.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 4 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:04:46 --> Cannot use object of type mysqli as array
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 37.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 4 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:05:05 --> Undefined property: mysqli::$id_pengaduan
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 37.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$id_pengaduan', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:05:42 --> Call to undefined method App\Models\PengaduanModel::getRow
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(33): CodeIgniter\Model->__call('getRow', [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:06:01 --> Call to undefined method App\Models\PengaduanModel::getrow
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(33): CodeIgniter\Model->__call('getrow', [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:06:11 --> Undefined property: mysqli::$id_pengaduan
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 37.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$id_pengaduan', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:06:33 --> Undefined property: mysqli::$id_pengaduan
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 37.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$id_pengaduan', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:06:46 --> Undefined property: mysqli::$id_pengaduan
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 37.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$id_pengaduan', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:07:09 --> Undefined property: mysqli::$id_pengaduan
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 37.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$id_pengaduan', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:07:14 --> Undefined property: mysqli::$id_pengaduan
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 37.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$id_pengaduan', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:07:57 --> Undefined property: mysqli::$id_pengaduan
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 37.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$id_pengaduan', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:08:38 --> Undefined property: mysqli::$id_pengaduan
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 35.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$id_pengaduan', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:08:53 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id_pengaduan
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 34.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$id_pengaduan', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:09:55 --> Cannot use object of type mysqli as array
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 37.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 4 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:10:15 --> Undefined property: mysqli::$id_pengaduan
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 37.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$id_pengaduan', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:10:21 --> Undefined property: mysqli::$id_pengaduan
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 37.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$id_pengaduan', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:10:28 --> Undefined property: mysqli::$id_pengaduan
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 37.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$id_pengaduan', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:10:33 --> Undefined property: mysqli::$id_pengaduan
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 37.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$id_pengaduan', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:11:55 --> Call to undefined method App\Models\PengaduanModel::getResult
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(33): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:12:05 --> Cannot use object of type stdClass as array
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 4 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:12:36 --> Attempt to read property "id_pengaduan" on string
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 37.
+ 1 APPPATH\Views\pages\Admin\BerandaAdmin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_pengaduan" on string', 'C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\PBLS3\\app\\Views\\pages\\Admin\\BerandaAdmin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 5 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
+CRITICAL - 2023-12-16 14:12:56 --> Cannot use object of type stdClass as array
+in APPPATH\Views\pages\Admin\BerandaAdmin.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/Admin/BerandaAdmin', [], true)
+ 4 APPPATH\Controllers\BerandaAdminController.php(35): view('pages/Admin/BerandaAdmin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BerandaAdminController->BerandaAdmin()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaAdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PBLS3\\public\\index.php')
